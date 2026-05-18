@@ -1,0 +1,99 @@
+# AIOps Infrastructure Monitoring Demo
+
+This project demonstrates how mathematical concepts are used in AI-assisted cloud infrastructure and DevOps monitoring systems (AIOps).
+
+The project includes simple Python and C++ examples that simulate infrastructure monitoring and anomaly detection using statistical analysis techniques commonly found in real-world monitoring platforms.
+
+---
+
+## Topics Covered
+
+- Moving averages
+- Standard deviation
+- Z-score anomaly detection
+- Infrastructure monitoring concepts
+- AI-assisted cloud operations
+
+---
+
+## Project Structure
+
+```text
+adam-huynh/
+├── doc/
+│   └── works-cited.md
+│
+├── presentation/
+│   └── video-link.md
+│
+├── public/
+│   └── presentation-img.png
+│
+└── src/
+    ├── aiops.cpp
+    └── aiops.py
+```
+
+---
+
+## Presentation
+
+The presentation video and supporting screenshot can be found in:
+
+```text
+presentation/video-link.md
+```
+
+---
+
+## Python Demonstration
+
+The Python example demonstrates:
+
+- Moving average calculation
+- Standard deviation calculation
+- Z-score anomaly detection
+- Basic infrastructure anomaly monitoring simulation
+
+Run the Python example:
+
+```bash
+python3 src/aiops.py
+```
+
+---
+
+## C++ Demonstration
+
+The C++ example demonstrates basic infrastructure monitoring simulation concepts.
+
+Compile and run:
+
+```bash
+g++ src/aiops.cpp -o aiops
+./aiops
+```
+
+---
+
+## Real-World Relevance
+
+Modern cloud and DevOps environments generate massive amounts of operational data such as:
+
+- CPU utilization
+- Memory usage
+- Request rates
+- Error rates
+- Network latency
+
+AIOps systems use statistical analysis and AI-assisted decision making to detect unusual behavior, identify anomalies, and help automate infrastructure management.
+
+---
+
+## Author
+
+Adam Huynh
+
+Los Angeles Pierce College  
+CS 131 Project  
+Spring 2026
