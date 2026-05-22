@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Topic Overview
+##  Topic Overview
 
 This project explores **Vision-Language-Action (VLA) models** — a class of AI systems that connect large language models directly to physical robot control. The central case study is **RT-2 (Robotics Transformer 2)**, published by Google DeepMind in 2023, which was the first model to prove that internet-scale language pretraining could transfer to real-world robotic tasks.
 
@@ -12,7 +12,7 @@ The presentation also covers the current state of humanoid robotics in 2026, inc
 
 ---
 
-## 🧠 Key Concepts Covered
+##  Key Concepts Covered
 
 - **Classical robotics vs. LLM-driven robotics** — why hardcoded control pipelines fail at generalization
 - **Vision-Language-Action (VLA) models** — how RT-2 unifies perception, language, and action into one transformer
@@ -22,7 +22,7 @@ The presentation also covers the current state of humanoid robotics in 2026, inc
 
 ---
 
-## 💻 Code Snippets
+##  Code Snippets
 
 ### Classical control — the brittleness problem
 ```python
@@ -65,7 +65,7 @@ Action: [delta_x: +0.12] [delta_y: -0.03] [gripper: open]
 
 ---
 
-## 📅 Timeline: VLA Model Evolution
+##  Timeline: VLA Model Evolution
 
 | Year | Model | Milestone |
 |------|-------|-----------|
@@ -77,7 +77,7 @@ Action: [delta_x: +0.12] [delta_y: -0.03] [gripper: open]
 
 ---
 
-## 📚 Sources & Further Reading
+##  Sources & Further Reading
 
 - [RT-2 Paper — arXiv 2307.15818](https://arxiv.org/abs/2307.15818)
 - [Google DeepMind RT-2 Blog](https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/)
